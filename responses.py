@@ -33,7 +33,7 @@ def get_response(message: str) -> str:
             return "YOu have lost credits!"
     
     # This will return a link to the tutorial used as a framework for this bot.
-    if p_message == "tutorial"
+    if p_message == "tutorial":
         return "https://www.youtube.com/watch?v=1yLfjMtsV9s"
     
     if p_message == "rolld4":
